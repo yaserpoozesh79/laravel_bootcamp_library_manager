@@ -1,0 +1,18 @@
+{
+    "name": "yaser/libmanager",
+    "description": "library management system form laravel bootcamp. cli only",
+    "type": "project",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Yaser\\Libmanager\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yaserpoozesh",
+            "email": "salibrother650@gmail.com"
+        }
+    ],
+    "require": {}
+}

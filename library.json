@@ -1,0 +1,53 @@
+{
+    "admins": [],
+    "students": [
+        {
+            "username": "jane",
+            "firstName": "Jane",
+            "lastName": "Smith",
+            "nationalCode": "0987654321",
+            "borrowedBooks": [
+                "The Great Gatsby",
+                "To Kill a Mockingbird"
+            ]
+        }
+    ],
+    "books": [
+        {
+            "title": "The Great Gatsby",
+            "author": "F. Scott Fitzgerald",
+            "year": 1925,
+            "availableCopies": 2
+        },
+        {
+            "title": "To Kill a Mockingbird",
+            "author": "Harper Lee",
+            "year": 1960,
+            "availableCopies": 1
+        },
+        {
+            "title": "Pride and Prejudice",
+            "author": "Jane Austen",
+            "year": 1813,
+            "availableCopies": 1
+        },
+        {
+            "title": "1984",
+            "author": "George Orwell",
+            "year": 1949,
+            "availableCopies": 2
+        }
+    ],
+    "borrowRequests": [
+        {
+            "studentUsername": "jane",
+            "bookTitle": "The Great Gatsby",
+            "approved": true
+        },
+        {
+            "studentUsername": "jane",
+            "bookTitle": "To Kill a Mockingbird",
+            "approved": true
+        }
+    ]
+}
